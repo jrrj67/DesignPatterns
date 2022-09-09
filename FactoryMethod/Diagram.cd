@@ -1,12 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="FactoryMethod.FinalFantasyCreator">
-    <Position X="10" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
-      <FileName>FinalFantasyCreator.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="FactoryMethod.Concretes.FinalFantasyI.FinalFantasyI">
     <Position X="7" Y="4.5" Width="1.5" />
     <TypeIdentifier>
@@ -22,11 +15,18 @@
       <FileName>Concretes\FinalFantasyI\FinalFantasyICreator.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="FactoryMethod.IFinalFantasy">
-    <Position X="7" Y="2.5" Width="1.25" />
+  <Class Name="Concretes.FinalFantasyCreator" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Concretes\FinalFantasyCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Interfaces.IFinalFantasy" Collapsed="true">
+    <Position X="7" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>IFinalFantasy.cs</FileName>
+      <FileName>Interfaces\IFinalFantasy.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
