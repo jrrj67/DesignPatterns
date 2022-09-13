@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Builder.Concretes.Computer">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAAAAAAAQAAEAAAAAACAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concretes\Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Concretes.ComputerBuilder">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAAAAgBAAAAAACAAQAAAAABAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Concretes\ComputerBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Builder.Concretes.Director">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAAAAAACAA=</HashCode>
+      <FileName>Concretes\Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Builder.Interfaces.IComputerBuilder">
+    <Position X="6" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAAAAgAAAAAAACAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IComputerBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
