@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Singleton.Concretes.SingletonNotThreadSafe">
+    <Position X="6.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concretes\SingletonNotThreadSafe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton.Concretes.SingletonThreadSafe">
+    <Position X="8.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Concretes\SingletonThreadSafe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
