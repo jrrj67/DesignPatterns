@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Singleton.Concretes
+﻿namespace Singleton.Concretes
 {
     public class SingletonThreadSafe
     {
@@ -14,7 +8,7 @@ namespace Singleton.Concretes
 
         public string? Value { get; set; }
 
-        private SingletonThreadSafe() 
+        private SingletonThreadSafe()
         {
         }
 

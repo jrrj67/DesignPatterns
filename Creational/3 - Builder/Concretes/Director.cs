@@ -1,9 +1,4 @@
 ﻿using Builder.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Builder.Concretes
 {
@@ -11,9 +6,9 @@ namespace Builder.Concretes
     {
         public IComputerBuilder _builder;
 
-        public IComputerBuilder Builder 
-        { 
-            set { _builder = value; } 
+        public IComputerBuilder Builder
+        {
+            set { _builder = value; }
         }
 
         public Director(IComputerBuilder builder)
