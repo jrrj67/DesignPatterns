@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Choose which version of FFVII to play!");
+﻿using Adapter.Concretes;
+using Adapter.Interfaces;
+
+Console.WriteLine("Choose which version of FFVII to play!");
 
 Console.WriteLine("1 - Playsation");
 
